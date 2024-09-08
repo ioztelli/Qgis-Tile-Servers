@@ -1,0 +1,16 @@
+<!DOCTYPE connections>
+<qgsXYZTilesConnections version="1.0">
+    <xyztiles zmin="0" referer="" name="Bing Aerial" zmax="18" tilePixelRatio="0" password="" http-header:referer="" authcfg="" url="http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1&#xa;" username=""/>
+    <xyztiles zmin="0" referer="" name="Bing Virtual Earth" zmax="22" tilePixelRatio="0" password="" http-header:referer="" authcfg="" url="https://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1" username=""/>
+    <xyztiles zmin="0" referer="" name="Esri Imagery" zmax="22" tilePixelRatio="0" password="" http-header:referer="" authcfg="" url="https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" username=""/>
+    <xyztiles zmin="0" referer="" name="Esri Physical" zmax="22" tilePixelRatio="0" password="" http-header:referer="" authcfg="" url="https://server.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}" username=""/>
+    <xyztiles zmin="0" referer="" name="Google Maps" zmax="18" tilePixelRatio="0" password="" http-header:referer="" authcfg="" url="https://mt1.google.com/vt/lyrs=r&amp;x={x}&amp;y={y}&amp;z={z}" username=""/>
+    <xyztiles zmin="0" referer="" name="Google Roads" zmax="18" tilePixelRatio="0" password="" http-header:referer="" authcfg="" url="https://mt1.google.com/vt/lyrs=h&amp;x={x}&amp;y={y}&amp;z={z}" username=""/>
+    <xyztiles zmin="0" referer="" name="Google Satellite" zmax="18" tilePixelRatio="0" password="" http-header:referer="" authcfg="" url="http://www.google.cn/maps/vt?lyrs=s@189&amp;gl=cn&amp;x={x}&amp;y={y}&amp;z={z}" username=""/>
+    <xyztiles zmin="0" referer="" name="Google Satellite Hybrid" zmax="18" tilePixelRatio="0" password="" http-header:referer="" authcfg="" url="https://mt1.google.com/vt/lyrs=y&amp;x={x}&amp;y={y}&amp;z={z}" username=""/>
+    <xyztiles zmin="0" referer="" name="Google Terrain" zmax="18" tilePixelRatio="0" password="" http-header:referer="" authcfg="" url="https://mt1.google.com/vt/lyrs=p&amp;x={x}&amp;y={y}&amp;z={z}" username=""/>
+    <xyztiles zmin="0" name="Mapzen Global Terrain" zmax="15" tilePixelRatio="0" password="" authcfg="" url="https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png" username=""/>
+    <xyztiles zmin="0" name="OpenStreetMap" zmax="19" tilePixelRatio="0" password="" authcfg="" url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" username=""/>
+    <xyztiles zmin="0" referer="" name="OpenTopoMap" zmax="18" tilePixelRatio="0" password="" http-header:referer="" authcfg="" url="https://tile.opentopomap.org/{z}/{x}/{y}.png&#xa;" username=""/>
+    <xyztiles zmin="0" referer="https://parselsorgu.tkgm.gov.tr/" name="Ortho TR" zmax="18" tilePixelRatio="0" password="" http-header:referer="https://parselsorgu.tkgm.gov.tr/" authcfg="" url="https://atlas.harita.gov.tr/webservis/ortofoto/{z}/{x}/{y}.jpg?apikey=blFTJejQ0rAxRG9gMvneL13AQXPsckFh" username=""/>
+</qgsXYZTilesConnections>
