@@ -1,0 +1,21 @@
+<!DOCTYPE connections>
+<qgsXYZTilesConnections version="1.0">
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="22" http-header:referer="" name="Bing Virtual Earth" password="" username="" referer="" authcfg="" url="https://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="22" http-header:referer="" name="Carto Light" password="" username="" referer="" authcfg="" url="https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.pn"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="22" http-header:referer="" name="Esri Light Gray" password="" username="" referer="" authcfg="" url="https://server.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="22" http-header:referer="" name="Esri National Geographic" password="" username="" referer="" authcfg="" url="https://server.arcgisonline.com/arcgis/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="22" http-header:referer="" name="Esri Shaded Relief" password="" username="" referer="" authcfg="" url="https://server.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="22" http-header:referer="" name="Esri Terrain" password="" username="" referer="" authcfg="" url="https://server.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="18" http-header:referer="" name="Google Map Labels" password="" username="" referer="" authcfg="" url="https://mt.google.com/vt/lyrs=h&amp;hl=tr&amp;z={z}&amp;x={x}&amp;y={y}"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="22" http-header:referer="" name="Google Maps" password="" username="" referer="" authcfg="" url="https://mt1.google.com/vt/lyrs=m&amp;x={x}&amp;y={y}&amp;z={z}"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="22" http-header:referer="" name="Google Satellite" password="" username="" referer="" authcfg="" url="https://mt1.google.com/vt/lyrs=s&amp;x={x}&amp;y={y}&amp;z={z}"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="22" http-header:referer="" name="Google Satellite Hybrid" password="" username="" referer="" authcfg="" url="https://mt1.google.com/vt/lyrs=y&amp;x={x}&amp;y={y}&amp;z={z}"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="22" http-header:referer="" name="Google Terrain Hybrid" password="" username="" referer="" authcfg="" url="https://mt1.google.com/vt/lyrs=p&amp;x={x}&amp;y={y}&amp;z={z}"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="18" http-header:referer="https://parselsorgu.tkgm.gov.tr/" name="HGM" password="" username="" referer="https://parselsorgu.tkgm.gov.tr/" authcfg="" url="https://atlas.harita.gov.tr/webservis/ortofoto/{z}/{x}/{y}.jpg?apikey=blFTJejQ0rAxRG9gMvneL13AQXPsckFh"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="18" http-header:referer="https://parselsorgu.tkgm.gov.tr/" name="HGM Yükseklik" password="" username="" referer="https://parselsorgu.tkgm.gov.tr/" authcfg="" url="https://atlas.harita.gov.tr/webservis/harita/hgm_yukseklik/{z}/{x}/{y}.png?apikey=blFTJejQ0rAxRG9gMvneL13AQXPsckFh"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="18" http-header:referer="https://parselsorgu.tkgm.gov.tr/" name="HGM with Label" password="" username="" referer="https://parselsorgu.tkgm.gov.tr/" authcfg="" url="https://atlas.harita.gov.tr/webservis/harita/hgm_ortofoto/{z}/{x}/{y}.png?apikey=blFTJejQ0rAxRG9gMvneL13AQXPsckFh"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="18" http-header:referer="" name="Local" password="" username="" referer="" authcfg="" url="http://localhost:5000/{z}/{x}/{y}.png"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="18" http-header:referer="" name="Mapy.cz" password="" username="" referer="" authcfg="" url="&#xa;https://tilecache.mapy.cz/hybrid-sparse-en/{z}-{y}-{x}"/>
+    <xyztiles tilePixelRatio="0" zmin="0" zmax="15" name="Mapzen Global Terrain" password="" username="" authcfg="" url="https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"/>
+    <xyztiles tilePixelRatio="1" zmin="0" zmax="19" name="OpenStreetMap" password="" username="" authcfg="" url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"/>
+</qgsXYZTilesConnections>
